@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "uk.org.dulwich.my-first-app"
+        versionCode="10"
+        version   = "1.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Funky Town</name>
+
+    <description>
+        The Real Deal
+    </description>
+
+    <author href="www.dulwich.org.uk" email="5rr65r65@gmail.com">
+        HHH
+    </author>
+    <icon src="Icon.png"/>
+    <gap:splash src="Default.png"/>
+    <access origin="*"/>
+    <plugin name="cordova-plugin-whitelist" version="1"/>   
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>  
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+
+</widget>
